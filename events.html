@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial;
+          font-size: medium;
+          padding: 10px;
+          background: #f1f1f1;
+        }
+        
+        /* Header/Blog Title */
+        .header {
+          padding: 30px;
+          text-align: center;
+          background: white;
+        }
+        
+        .header h1, h5 {
+          font-size: 50px;
+          font-size: medium;
+        }
+        
+        /* Add a card effect for articles */
+        .card {
+          background-color: white;
+          padding: 10px;
+          margin-top: 1px;
+          width: 450px;
+          float: left;
+          height: 440px;
+        }
+    
+
+        /* Clear floats after the columns */
+        .row::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+          .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+          }
+        }
+        
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+          .topnav a {
+            float: none;
+            width: 100%;
+          }
+        }
+        div.gallery {
+          border: 1px solid #ccc;
+        
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: 250px;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        .responsive {
+          padding: 0 6px;
+          float: left;
+          width: 24.99999%;
+        }
+        
+        @media only screen and (max-width: 700px) {
+          .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+          }
+        }
+        
+        @media only screen and (max-width: 500px) {
+          .responsive {
+            width: 100%;
+          }
+        }
+        
+        .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        </style>
+        </head>
+        <body>
+
+        <div class="row">
+        
+        <h2>Events</h2>
+        <h5>Kota Tinggi, located in the state of Johor, Malaysia, offers a variety of events and activities that cater to different interests. Here are some examples of events and activities that people can enjoy in Kota Tinggi:</h5>
+        
+        <p>Nature and Adventure Activities</p>
+        
+        <div class="card">
+        <p>Kota Tinggi Waterfall Visit:</p>
+        <p>This popular natural attraction is perfect for picnics, swimming, and enjoying the scenic beauty of the waterfall.</p>
+          <div class="gallery">
+            <a target="_blank" href="picture/photo0jpg.jpg">
+              <img src="picture/photo0jpg.jpg" alt="Kota Tinggi Waterfall" width="50" height="100">
+            </a>
+            <div class="desc">Kota Tinggi Waterfall</div>
+            </div>
+         </div>
+         
+        <div class="card">
+        <p>Firefly Watching Tour:</p> 
+        <p>Take a boat ride along the Johor River at night to witness the magical sight of fireflies illuminating the mangrove trees.</p>
+        <div class="gallery">
+            <a target="_blank" href="picture/1114-0728_kota-tinggi-firefly-park-river-cruise-malaysia-pelago00-medium.jpg">
+              <img src="picture/1114-0728_kota-tinggi-firefly-park-river-cruise-malaysia-pelago00-medium.jpg" alt="Firefly Watching Tour" width="50" height="100">
+            </a>
+            <div class="desc">Firefly Watching Tour</div>
+            </div>
+         </div>
+         
+        <div class="card">
+        <p>Hiking and Camping at Gunung Panti:</p>
+        <p>Hiking up Gunung Panti offers a challenging yet rewarding experience with breathtaking views.</p>
+        <div class="gallery">
+            <a target="_blank" href="picture/7e01657c-278a-47ea-868c-128dce5fafb7.jpg.webp">
+              <img src="picture/7e01657c-278a-47ea-868c-128dce5fafb7.jpg.webp" alt="Hiking and Camping at Gunung Panti" width="50" height="100">
+            </a>
+            <div class="desc">Gunung Panti</div>
+            </div>
+        </div>
+    </div>     
+
+
+    <div class="row">
+       
+    <p>Cultural, Agricultural and Eco-Tourism</p>
+        
+        <div class="card">
+        <p>Kota Tinggi Historical Museum</p>
+        <p>Learn about the rich history and culture of the area through various exhibits and artifacts.</p>
+          <div class="gallery">
+            <a target="_blank" href="picture/MKT-1.jpg">
+              <img src="picture/MKT-1.jpg" alt="Kota Tinggi Historical Museum" width="50" height="100">
+            </a>
+            <div class="desc">Kota Tinggi Historical Museum</div>
+            </div>
+         </div>
+         
+        <div class="card">
+        <p>Desaru Fruit Farm</p> 
+        <p>Take a guided tour of this extensive fruit farm, enjoy fruit tasting, and learn about various tropical fruits and farming practices.</p>
+        <div class="gallery">
+            <a target="_blank" href="picture/images-3.jpeg">
+              <img src="picture/images-3.jpeg" alt="Desaru Fruit Farm" width="50" height="100">
+            </a>
+            <div class="desc">Desaru Fruit Farm</div>
+            </div>
+         </div>
+         
+
+    </div>     
+
+        
+        </body>
+        </html>
